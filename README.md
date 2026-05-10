@@ -40,3 +40,44 @@ project_directory/
 ├── SGD/
 ├── spearman_plots_gallery.html
 └── derivatives_plots_gallery.html
+```
+
+## Learning-regime thresholds
+
+The following thresholds were used for the rule-based identification of selected learning regimes.
+
+### Coupled Learning Regime (CLR)
+
+For the CLR regime, the thresholds were selected as follows:
+
+- admissible coupling threshold:  
+  $\theta_f^{\mathrm{CLR}} = 0.1$
+
+- admissible dynamics-consistency threshold:  
+  $\theta_{\Delta}^{\mathrm{CLR}} = 0.7$
+
+- admissible common-trajectory approximation threshold:  
+  $\theta_c^{\mathrm{CLR}} = 0.1$
+
+### Non-Coherent Regime (NCR)
+
+For the NCR regime, the thresholds were selected as follows:
+
+- admissible non-coherence threshold:  
+  $\theta_f^{\mathrm{NCR}} = 0.1$
+
+- maximum admissible dynamics-inconsistency threshold:  
+  $\theta_{\Delta}^{\mathrm{NCR}} = 0.7$
+
+- maximum admissible sign-consistency threshold:  
+  $\theta_{\mathrm{sgn}}^{\mathrm{NCR}} = 0.7$
+
+### Early Saturation Regime (ESR)
+
+For the ESR regime, the thresholds were selected as follows:
+
+- admissible discrepancy-vanishing threshold:  
+  $\theta_f^{\mathrm{ESR}} = 0.03$
+
+- admissible saturation threshold:  
+  $\theta_{\mathrm{ESR}} = 0.91$
