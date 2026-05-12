@@ -25,9 +25,9 @@ The full set of PNG files is available in the latest GitHub Release.
 
 Download the following archives from the **Releases** section:
 
-- `Adam.zip`
-- `Momentum.zip`
-- `SGD.zip`
+- [`Adam.zip`](https://github.com/cnapoli-DIAG/neurips2026/releases/download/v1.0/Adam.zip)
+- [`Momentum.zip`](https://github.com/cnapoli-DIAG/neurips2026/releases/download/v1.0/Momentum.zip)
+- [`SGD.zip`](https://github.com/cnapoli-DIAG/neurips2026/releases/download/v1.0/SGD.zip)
 
 After downloading, extract the archives into the same directory as the HTML gallery files.
 
